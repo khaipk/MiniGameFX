@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.MenuViewController">
+   <children>
+      <VBox alignment="CENTER" layoutX="86.0" layoutY="62.0" prefHeight="377.0" prefWidth="228.0" spacing="20.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#newGame" prefHeight="40.0" prefWidth="120.0" style="-fx-background-radius: 15;" text="New Game" textFill="#ff6200">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#continueGame" prefHeight="40.0" prefWidth="120.0" style="-fx-background-radius: 15;" text="Continue" textFill="#ff6200">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#highScore" prefHeight="40.0" prefWidth="120.0" style="-fx-background-radius: 15;" text="High Score" textFill="#ff6200">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#help" prefHeight="40.0" prefWidth="120.0" style="-fx-background-radius: 15;" text="Help" textFill="#ff6200">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="120.0" style="-fx-background-radius: 15;" text="Exit" textFill="#ff6200">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="163.0" layoutY="34.0" text="kloveq" textFill="#d00505">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
